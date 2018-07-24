@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="buttonTop">219dp</dimen>
-    <dimen name="topText">79dp</dimen>
-    <dimen name="startText">49dp</dimen>
-    <dimen name="heightText">107dp</dimen>
-    <dimen name="widthText">284dp</dimen>
-</resources>
