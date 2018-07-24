@@ -12,9 +12,9 @@ import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
-    //String url = "https://www.youtube.com/watch?v=dFlPARW5IX8";
 
-   //final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
+
+
      private Button button;
      private EditText input;
 
@@ -23,22 +23,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         text();
-
-       /* button= (Button)findViewById(R.id.clickBtn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(intent);
-            }
-            */
         };
+
     private void text(){
         button = findViewById(R.id.clickBtn);
         input = findViewById(R.id.text1);
         button.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view){
-                String inputString = input.getText().toString();
+                String inputString = String.valueOf(input.getText());
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
                 intent.putExtra(SearchManager.QUERY, inputString);
                 startActivity(intent);

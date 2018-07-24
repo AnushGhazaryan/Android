@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size">20dp</dimen>
+    <dimen name="top">68dp</dimen>
+    <dimen name="end">63dp</dimen>
+    <dimen name="topText">90dp</dimen>
+    <dimen name="heightText">70dp</dimen>
+    <dimen name="widthText">333dp</dimen>
+    <dimen name="buttonTop">170dp</dimen>
+    <dimen name="buttonWidth">124dp</dimen>
+    <dimen name="buttonHeight">67dp</dimen>
+</resources>
