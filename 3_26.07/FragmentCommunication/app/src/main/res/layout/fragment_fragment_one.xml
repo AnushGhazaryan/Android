@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/lin2_lay_h"
+    android:background="@color/colorPink"
+    android:orientation="vertical"
+    tools:context=".FragmentOne">
+
+    <TextView
+        android:layout_width="@dimen/textView2_w"
+        android:layout_height="@dimen/textView2_h"
+        android:text="Fragment One" />
+
+
+    <EditText
+        android:id="@+id/textEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_one"
+        android:layout_marginRight="@dimen/right_one"
+        android:layout_marginTop="@dimen/mar_r"
+        android:hint="Type your text" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/mar_top_btn"
+        android:text="Send" />
+
+
+</LinearLayout>
