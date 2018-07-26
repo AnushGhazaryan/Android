@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Movie m2 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k","Watch Online", R.drawable.m123,5f);
+        Movie m2 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k"," 1991  Henri Verneuil", R.drawable.m123,5f);
         list.add(m2);
-        Movie m3 = new Movie("1+1", "https://www.youtube.com/watch?v=whTjYy464cY","Watch Online",R.drawable.suw5z,3.5f);
+        Movie m3 = new Movie("1+1", "https://www.youtube.com/watch?v=whTjYy464cY","2011 Olivier Nakache & Éric Toledano",R.drawable.suw5z,3.5f);
         list.add(m3);
-        Movie m4 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k","Watch Online",R.drawable.m123,4.5f);
+        Movie m4 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k","1991  Henri Verneuil",R.drawable.m123,4.5f);
         list.add(m4);
-        Movie m5 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k","Watch Online",R.drawable.m123,4.5f);
+        Movie m5 = new Movie("Mayrik","https://www.youtube.com/watch?v=LuLuFMNel7k","1991  Henri Verneuil",R.drawable.m123,4.5f);
         list.add(m5);
 
     }
