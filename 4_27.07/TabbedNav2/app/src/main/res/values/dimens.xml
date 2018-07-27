@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">30dp</dimen>
+    <dimen name="fragm_three_size">30dp</dimen>
+    <dimen name="fragm_two_size">30dp</dimen>
+</resources>
