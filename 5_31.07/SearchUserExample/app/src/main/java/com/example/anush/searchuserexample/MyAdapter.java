@@ -23,7 +23,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.UserModel> implements Filterable {
 
-    List<User> users = new ArrayList<>();
+    List<User> users ;
     Context context;
     List<User> filteredUser;
 
