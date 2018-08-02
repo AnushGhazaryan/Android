@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <array name="options">
+        <item>Hi</item>
+        <item>Hola</item>
+        <item>Guten Tag</item>
+        <item>Jambo</item>
+    </array>
+</resources>
