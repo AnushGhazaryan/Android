@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/ed_marinTop"
+        android:hint="Input" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="@dimen/btn_send_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_copy"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/btn_send_marginTop"
+        android:background="@color/colorPrimaryDark"
+        android:text="SEND" />
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/tv_marginTop"
+        android:text="Edited text"
+        android:textSize="@dimen/tv_textSize" />
+
+    <Button
+        android:id="@+id/btn_copy"
+        android:layout_width="@dimen/btn_copy_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/btn_copy_MarginEnd"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/btn_copy_marginTop"
+        android:background="@color/colorPrimaryDark"
+        android:text="Copy " />
+
+</RelativeLayout>
