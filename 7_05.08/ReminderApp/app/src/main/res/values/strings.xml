@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReminderApp</string>
+    <string name="first_page_text">There are so many Things to do...</string>
+    <string name="second_page_text">and you cannot remember all of them ?</string>
+    <string name="third_page_text">This APP will help you to Remember about your plans</string>
+    <string name="skip">skip</string>
+</resources>
