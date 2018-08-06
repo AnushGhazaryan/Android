@@ -17,7 +17,7 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:text="Welcome To Do List APP"
-        android:textSize="24sp"
+        android:textSize="@dimen/text_view_text_size"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/image"/>
 
@@ -36,9 +36,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="@dimen/tab_layout_marginBottom"
         app:tabMode="fixed"
-        app:tabIndicatorHeight="0dp"
+        app:tabIndicatorHeight="@dimen/tab_layout_tabIndicatorHeight"
         app:tabGravity="center"
         app:tabBackground="@drawable/tab_selector">
     </android.support.design.widget.TabLayout>
@@ -56,7 +56,7 @@
             android:background="@android:color/transparent"
             android:text="@string/skip"
             android:textColor="@color/text_color"
-            android:textSize="18sp" />
+            android:textSize="@dimen/btn_skip_text_size" />
 
     </RelativeLayout>
 

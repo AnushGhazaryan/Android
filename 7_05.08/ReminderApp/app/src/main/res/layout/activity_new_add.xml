@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
+    android:paddingBottom="@dimen/rl_paddingBottom"
+    android:paddingLeft="@dimen/rl_paddingLeft"
+    android:paddingRight="@dimen/rl_paddingRight"
+    android:paddingStart="@dimen/rl_paddingStart"
+    android:paddingEnd="@dimen/rl_paddingEnd"
+    android:background="@color/colorPink"
     tools:context=".NewAdd">
 
 
@@ -20,9 +21,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="start"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="@dimen/title_marginTop"
         android:hint="Title"
-        android:paddingBottom="16dp"
+        android:paddingBottom="@dimen/title_paddingBottom"
         android:textColor="@color/colorAccent" />
 
     <EditText
@@ -31,38 +32,55 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="93dp"
+        android:layout_marginTop="@dimen/des_marginTop"
         android:hint="Description"
         android:textColor="@color/colorPrimaryDark" />
 
     <ImageView
         android:id="@+id/add_image"
-        android:layout_width="188dp"
-        android:layout_height="123dp"
+        android:layout_width="@dimen/add_image_width"
+        android:layout_height="@dimen/add_image_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="153dp" />
+        android:layout_marginTop="@dimen/add_image_marginTop" />
 
     <Button
         android:id="@+id/upload_image"
-        android:layout_width="81dp"
-        android:layout_height="35dp"
-        android:layout_alignBottom="@+id/add_image"
+        android:layout_width="@dimen/upload_image_width"
+        android:layout_height="@dimen/upload_image_height"
         android:layout_alignEnd="@+id/title"
-        android:layout_marginBottom="3dp"
-        android:layout_marginEnd="-5dp"
-        android:text="upload"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/upload_image_marginTop"
+        android:text="upload a photo"
         android:textColor="@color/oval_color" />
+
+    <ImageView
+        android:id="@+id/alarm"
+        android:layout_width="@dimen/alarm_width"
+        android:layout_height="@dimen/alarm_height"
+        android:layout_below="@+id/add_image"
+        android:layout_toStartOf="@+id/add_image"
+        android:pointerIcon="@drawable/ic_alarm" />
+
+    <ImageView
+        android:id="@+id/date"
+        android:layout_width="@dimen/date_width"
+        android:layout_height="@dimen/date_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/date_marginBottom"
+        android:layout_marginEnd="@dimen/date_marginEnd"
+        android:pointerIcon="@drawable/ic_date" />
 
 
     <Button
         android:id="@+id/save"
-        android:layout_width="113dp"
+        android:layout_width="@dimen/save_btn_width"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="24dp"
-        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="@dimen/save_btn_marginBottom"
+        android:layout_marginEnd="@dimen/save_btn_marginEnd"
         android:text="SAVE" />
 
 

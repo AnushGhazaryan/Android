@@ -12,6 +12,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
     private List<PreviewObjects> previewObjectsList = new LinkedList<>();
 
     @Override
@@ -33,10 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
-
-
     }
     public void setObjectList() {
         previewObjectsList.add(new PreviewObjects( getString(R.string.first_page_text)));

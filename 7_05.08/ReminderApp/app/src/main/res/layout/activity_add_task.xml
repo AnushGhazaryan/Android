@@ -9,15 +9,15 @@
         android:id="@+id/recyclerViewtasks"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="8dp"/>
+        android:paddingBottom="@dimen/padding_rv"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:tint="#ffffff"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="@color/colorWhite"
         android:src="@drawable/ic_add_fab"/>
 
 

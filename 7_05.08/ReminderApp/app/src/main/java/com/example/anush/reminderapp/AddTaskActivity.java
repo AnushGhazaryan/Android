@@ -11,10 +11,9 @@ import android.view.View;
 import java.util.ArrayList;
 
 public class AddTaskActivity extends AppCompatActivity {
-
-    RecyclerView recyclerView;
-    RecyclerView.Adapter adapter;
-    ArrayList<String> items;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+    private ArrayList<String> items;
 
 
     @Override

@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="oval_color">#59a9a1a1</color>
     <color name="text_color">#0099ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#76cddb</color>
+    <color name="colorPink">#fbe8f6</color>
 </resources>
