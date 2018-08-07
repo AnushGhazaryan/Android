@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ImageOpen</string>
+    <string name="from_res">from Resourses</string>
+    <string name="from_gellary">Input from Gallery</string>
+    <string name="given_url">Given URL</string>
+    <string name="input_image_url">Input Image URL</string>
+    <string name="selet_picture">Options</string>
+    <string name="select_picture">Options</string>
+    <string name="waiting">Wait Please</string>
+    <string name="error_message">Error</string>
+    <string name="wrong_case">Something went wrong.Try again</string>
+
+</resources>
