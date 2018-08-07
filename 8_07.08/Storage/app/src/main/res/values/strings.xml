@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Storeage</string>
+    <string name="file_name">File Name</string>
+    <string name="content">Content</string>
+    <string name="external_storage">External Storage</string>
+    <string name="internal_storage">Internal Storage</string>
+
+</resources>
